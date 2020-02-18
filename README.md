@@ -1,5 +1,5 @@
 # Explanation of some Object Oriented Programming (OOP) concepts
-In this repo, I would explain some concepts of Object Oriented Programming. The code will be in python to serve as an example to help understanding the concepts.
+In this repo, I would explain some concepts of Object Oriented Programming. The code will be in python to serve as an example to help understand this concepts.
 
 
 ## Encapsulation
