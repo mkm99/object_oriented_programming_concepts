@@ -3,51 +3,30 @@ In this repo, I would explain some concepts of Object Oriented Programming. The 
 
 
 ## Encapsulation
-Encapsulation means to keep the data of an object as private state in a class. We want to do this so other objects do not gain access to it. However, there is a way to gan inderect access to the correspondidng data. This way is by using predetermined methods (or functions) that can can access such data. In simple words, the only way to gain access to the object data is by the methods that have been already predetermined.  
+Encapsulation means to keep the data of an object in a private state inside a class. We want to do this so other objects do not gain access to it directly. However, there is a way to gain inderect access to the correspondidng data using predetermined methods (or functions). In simple words, the only way to gain access to the object's data is by the methods that have been already predetermined.  
 
-In the code I wrote using python, I will be using the example of a t-shirt object. The t-shirt will have a color, a brand, a size, and a state if the t-shirt is dirty or not.
-
-Here the “state” of the cat is the private variables mood, hungry and energy. It also has a private method meow(). It can call it whenever it wants, the other classes can’t tell the cat when to meow.
-
-What they can do is defined in the public methods sleep(), play() and feed(). Each of them modifies the internal state somehow and may invoke meow(). Thus, the binding between the private state and public methods is made.
+In the code I wrote using python, I will be using the example of  object. The t-shirt will have a color, a brand, a size, and a state if the t-shirt is dirty or not; this data can only be accessed using methods that I have already wrote.
 
 <br>
+
 
 ## Abstraction
-Abstraction can be thought of as a natural extension of encapsulation.
+Abstraction would be something similar to encapsulation, because still the data from the object is not accessible directly.
 
-In object-oriented design, programs are often extremely large. And separate objects communicate with each other a lot. So maintaining a large codebase like this for years — with changes along the way — is difficult.
+Think of black box that you do not know what is inside, you use it but somehow gets your job done without knowing how. 
 
-Abstraction is a concept aiming to ease this problem.
-
-Applying abstraction means that each object should only expose a high-level mechanism for using it.
-
-This mechanism should hide internal implementation details. It should only reveal operations relevant for the other objects.
-
-Think — a coffee machine. It does a lot of stuff and makes quirky noises under the hood. But all you have to do is put in coffee and press a button.
-
-Preferably, this mechanism should be easy to use and should rarely change over time. Think of it as a small set of public methods which any other class can call without “knowing” how they work.
-
-Another real-life example of abstraction?
-Think about how you use your phone:
-
-You interact with your phone by using only a few buttons. What’s going on under the hood? You don’t have to know — implementation details are hidden. You only need to know a short set of actions.
-
-Implementation changes — for example, a software update — rarely affect the abstraction you use.
+In my script I used the built-in function pow(), in this case I used this function to find the power of THAT number. I was able to used this function to find the solution, that built-in function has code written to find the result and when you use it but you do not need to know exactly what the code is doing.
 
 <br>
+
 
 ## Inheritance
-So how do we reuse the common logic and extract the unique logic into a separate class? One way to achieve this is inheritance.
+Thinking about inheritance, it is easier to think that you have a blueprint for a house, and you want to make several houses using that blueprint.
 
-It means that you create a (child) class by deriving from another (parent) class. This way, we form a hierarchy.
-
-The child class reuses all fields and methods of the parent class (common part) and can implement its own (unique part).
-If our program needs to manage public and private teachers, but also other types of people like students, we can implement this class hierarchy.
-
-This way, each class adds only what is necessary for it while reusing common logic with the parent classes.
+So basically, you are reusing what we have already in that blueprint, the new object (the child) INHERITS everything from the parent, but still the child will have new characteristics that will make it different from the parent. These new characteristics will be new functions that we can add to the child object.
 
 <br>
+
 
 ## Polymorphism
 Polymorphism means “many shapes” in Greek.
