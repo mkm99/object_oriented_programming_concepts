@@ -7,7 +7,7 @@ Encapsulation means to keep the data of an object in a private state inside a cl
 
 In the code I wrote using python, I will be using the example of  object. The t-shirt will have a color, a brand, a size, and a state if the t-shirt is dirty or not; this data can only be accessed using methods that I have already wrote.
 
-- [Vi Tutorial](/viTutorial.md)
+- [House Blueprint](/houseBlueprint.py)
 
 <br>
 
@@ -19,7 +19,7 @@ Think of black box that you do not know what is inside, you use it but somehow g
 
 In my script I used the built-in function pow(), in this case I used this function to find the power of THAT number. I was able to used this function to find the solution, that built-in function has code written to find the result and when you use it but you do not need to know exactly what the code is doing.
 
-- [Vi Tutorial](/viTutorial.md)
+- [Math Problems](/mathProblems.py)
 
 <br>
 
@@ -29,7 +29,7 @@ Thinking about inheritance, it is easier to think that you have a blueprint for 
 
 So basically, you are reusing what we have already in that blueprint, the new object (the child) INHERITS everything from the parent, but still the child will have new characteristics that will make it different from the parent. These new characteristics will be new functions that we can add to the child object.
 
-- [Vi Tutorial](/viTutorial.md)
+- [Summer House](/summerHouse.py)
 
 <br>
 
@@ -37,4 +37,4 @@ So basically, you are reusing what we have already in that blueprint, the new ob
 ## Polymorphism
 The meaning of "Polymorphism" is “many forms”. Continuing with the example of the blueprint for a house, since we are able to use inheritance to make new houses, we are able to make houses but make them somehow different. Now from the code in python, we can see that all the houses will have windows, doors, and ceiling. However, we want the houses to look different, so we can use the predetermined functions that we got by inheritance, but we can make changes to every object and make our houses diffrent.
 
-- [Vi Tutorial](/viTutorial.md)
+- [Winter House](/winterVacationHouse.py)
