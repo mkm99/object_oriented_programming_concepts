@@ -1,17 +1,17 @@
-from math import sqrt
 # this program will help to understand the concept of abstraction
 
-# declaring variables
-num1 = 81
-num2 = 16
-num3 = 144
-num4 = 25
+# in this function I am using the log built-in function from python to find the logarithm
+# I just imported the log function, but I do not know what the code of the function is
+class Logarithm:
+    def logarithm(antilogarithm, base):
+        from math import log
+        return log(antilogarithm, base)
 
-# I want to find the square root of the following numbers
-# I imported the sqrt built-in function to use for my own use, but I do not need to know the code in order to find the
-# the square root of those numbers
-print("Printing the square root of " + str(num1) + ": " + str(sqrt(num1)))
-print("Printing the square root of " + str(num2) + ": " + str(sqrt(num2)))
-print("Printing the square root of " + str(num3) + ": " + str(sqrt(num3)))
-print("Printing the square root of " + str(num4) + ": " + str(sqrt(num4)))
+
+# Here I am using the sqrt built-in function to find the square root of a number
+# Again I am not able to see the code for that function but I am able to use it
+class SquareRoot:
+    def squareRoot(radicant):
+        from math import sqrt
+        return sqrt(radicant)
 
