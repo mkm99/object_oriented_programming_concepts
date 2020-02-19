@@ -37,4 +37,4 @@ So basically, you are reusing what we already have in that blueprint, the new ob
 ## Polymorphism
 The meaning of "Polymorphism" is “many forms”. Continuing with the example of the blueprint for a house, since we are able to use inheritance to make new houses, we are able to make houses but make them somehow different. Now if you take a look in the python script, we can see that all the houses will have a size, color, windows, doors, and a backyard. However, we want the houses to look different, so we can use the predetermined functions that we got by inheritance, but we can make changes to every object and make our houses diffrent. In my script, the houses are different if they have a garage or not. So I wrote a function where the presence of a garage by printing out a statement. 
 
-- [Makin_Houses](/makingHouses.py)
+- [Making Houses](/makingHouses.py)
