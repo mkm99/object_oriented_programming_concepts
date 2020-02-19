@@ -29,7 +29,7 @@ Thinking about inheritance, it is easier to think that you have a blueprint for 
 
 So basically, you are reusing what we have already in that blueprint, the new object (the child) INHERITS everything from the parent, but still the child will have new characteristics that will make it different from the parent. These new characteristics will be new functions that we can add to the child object.
 
-- [Summer House](/summerHouse.py)
+- [Summer House](/makingHouses.py)
 
 <br>
 
