@@ -3,6 +3,11 @@ import unittest
 from makingHouses import SummerHouse
 from makingHouses import WinterHouse
 
+"""
+This script helps with the unittest
+"""
+
+
 class MyTestCase(unittest.TestCase):
 
     def test_creating_a_SummerHouse(self):
@@ -24,8 +29,6 @@ class MyTestCase(unittest.TestCase):
         london_house = WinterHouse("Small", "Green", 3, 2, True)
         garage = london_house.do_We_Need_garage()
         self.assertEqual("No, we do not need a garage!", garage)
-
-
 
 
 if __name__ == '__main__':

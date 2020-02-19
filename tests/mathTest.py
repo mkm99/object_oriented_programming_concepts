@@ -3,6 +3,10 @@ import unittest
 from mathProblems import SquareRoot
 from mathProblems import Logarithm
 
+"""
+This script helps with unittest
+"""
+
 
 class MyTestCase(unittest.TestCase):
     def test_squareRoot(self):
