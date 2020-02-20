@@ -9,6 +9,32 @@ Encapsulation means to keep the data of an object in a private state inside a cl
 
 In the python script, I will be using the example of a House object. The house will have size, color, number of windows, number of doors, and if it has a backyard; this data can only be accessed using methods that I have already wrote.
 
+`class House:
+    def __init__(self, size, color, num_of_windows, num_of_doors, backyard):
+        self.size = size
+        self.color = color
+        self.num_of_windows = num_of_windows
+        self.num_of_doors = num_of_doors
+        self.backyard = backyard
+
+    def get_size(self):
+        return self.size
+
+    def get_color(self):
+        return self.color
+
+    def get_windows(self):
+        return self.num_of_windows
+
+    def get_doors(self):
+        return self.num_of_doors
+
+    def get_bool_backyard(self):
+        return self.backyard
+
+    def do_We_Need_garage(self):
+        return ""`
+
 - [House Blueprint](/houseBlueprint.py)
 
 <br>
