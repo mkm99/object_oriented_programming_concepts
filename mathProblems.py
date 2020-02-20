@@ -1,5 +1,8 @@
 # This program will help to understand the concept of abstraction
 
+from math import log
+from math import sqrt
+
 """
 In this function I am using the log built-in function from python to find the logarithm
 I just imported the log function, but I do not know what the code of the function is
@@ -8,7 +11,6 @@ I just imported the log function, but I do not know what the code of the functio
 
 class Logarithm:
     def logarithm(antilogarithm, base):
-        from math import log
         return log(antilogarithm, base)
 
 
@@ -20,5 +22,4 @@ Again I am not able to see the code for that function but I am able to use it
 
 class SquareRoot:
     def squareRoot(radicant):
-        from math import sqrt
         return sqrt(radicant)
