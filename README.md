@@ -9,8 +9,7 @@ Encapsulation means to keep the data of an object in a private state inside a cl
 
 In the python script, I will be using the example of a House object. The house will have size, color, number of windows, number of doors, and if it has a backyard; this data can only be accessed using methods that I have already wrote.
 
-`
-class House:
+`class House:
     def __init__(self, size, color, num_of_windows, num_of_doors, backyard):
         self.size = size
         self.color = color
@@ -34,8 +33,7 @@ class House:
         return self.backyard
 
     def do_We_Need_garage(self):
-        return ""
-`
+        return ""`
 
 #### You can access the script clicking in the link ####
 - [House Blueprint](/houseBlueprint.py)
@@ -50,16 +48,14 @@ Think of a box that you do not know what is inside, you use it but somehow gets 
 
 In my script I used the built-in function log() and sqrt() from the math library, in this case I used these functions to find the logarithm and the square root of a number. I was able to used these functions to find the solution, those built-in functions have code written to find the result and when you use them, but you do not need to know exactly what the code is doing.
 
-`
-class Logarithm:
+`class Logarithm:
     def logarithm(antilogarithm, base):
         return log(antilogarithm, base)
 
 
 class SquareRoot:
     def squareRoot(radicant):
-        return sqrt(radicant)
-`
+        return sqrt(radicant)`
 
 
 #### You can access the script clicking in the link ####
@@ -73,16 +69,14 @@ Thinking about inheritance, it is easier to think that you have a blueprint for 
 
 So basically, you are reusing what we already have in that blueprint, the new object (the child) **inherits** everything from the parent, but still the child will have new characteristics that will make it different from the parent. These new characteristics will be new functions that we can add to the child object.
 
-`
-class SummerHouse(House):
+`class SummerHouse(House):
     def __init__(self, size, color, num_of_windows, num_of_doors, backyard):
         super().__init__(size, color, num_of_windows, num_of_doors, backyard)
         
         
 class WinterHouse(House):
     def __init__(self, size, color, num_of_windows, num_of_doors, backyard):
-        super().__init__(size, color, num_of_windows, num_of_doors, backyard)
-`
+        super().__init__(size, color, num_of_windows, num_of_doors, backyard)`
 
 
 #### You can access the script clicking in the link ####
@@ -94,8 +88,7 @@ class WinterHouse(House):
 ## Polymorphism
 The meaning of "Polymorphism" is “many forms”. Continuing with the example of the blueprint for a house, since we are able to use inheritance to make new houses, we can make them somehow different. Now if you take a look in the python script, we can see that all the houses will have a size, color, windows, doors, and a backyard. However, we want the houses to look different, but we can make changes to every object usig methods. In my script, the houses are different if they have a garage or not. So I wrote a function where the presence of a garage by printing out a statement. 
 
-`
-class SummerHouse(House):
+`class SummerHouse(House):
     def __init__(self, size, color, num_of_windows, num_of_doors, backyard):
         super().__init__(size, color, num_of_windows, num_of_doors, backyard)
 
@@ -108,9 +101,7 @@ class WinterHouse(House):
         super().__init__(size, color, num_of_windows, num_of_doors, backyard)
 
     def do_We_Need_garage(self):
-        return "No, we do not need a garage!"
-
-`
+        return "No, we do not need a garage!"`
 
 
 #### You can access the script clicking in the link ####
