@@ -15,9 +15,9 @@ In the python script, I will be using the example of a House object. The house w
         self.color = color
         self.num_of_windows = num_of_windows
         self.num_of_doors = num_of_doors
-        self.backyard = backyard
+        self.backyard = backyard`
 
-    def get_size(self):
+    `def get_size(self):
         return self.size
 
     def get_color(self):
@@ -50,10 +50,9 @@ In my script I used the built-in function log() and sqrt() from the math library
 
 `class Logarithm:
     def logarithm(antilogarithm, base):
-        return log(antilogarithm, base)
+        return log(antilogarithm, base)`
 
-
-class SquareRoot:
+`class SquareRoot:
     def squareRoot(radicant):
         return sqrt(radicant)`
 
