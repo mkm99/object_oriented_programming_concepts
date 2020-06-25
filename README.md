@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/mkm99/object_oriented_programming_concepts.svg?branch=master)](https://travis-ci.com/mkm99/object_oriented_programming_concepts)
 
 # Explanation of some Object Oriented Programming (OOP) concepts
-In this repo, I would explain some concepts of Object Oriented Programming. The code will be in python to serve as an example to help understand this concepts. Every concept includes a piece of code to illustrate the explanation. Additionally, I added a link to go to the python file respectively.
+In this repo, I would explain some concepts of Object Oriented Programming. Examples are written in Python to help understanding concepts. Every concept includes a piece of code to illustrate the explanation. Additionally, I added a link to go to the python file respectively.
 
 
 ## Encapsulation
